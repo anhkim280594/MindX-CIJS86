@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+}
+.todo-list-container {
+    border: none;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    padding: 16px;
+    box-shadow: 5px 5px 0px 0px rgba(100, 100, 100, 0.1);
+}
+
+.input-container > input {
+    height: 24px;
+    width: 250px;
+}
+.btn {
+    height: 28px;
+    width: 72px;
+    margin: 8px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.btn-del {
+    background-color: red;
+}
+.item {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    height: 24px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 2px;
+}
